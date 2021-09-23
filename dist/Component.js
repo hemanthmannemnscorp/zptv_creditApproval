@@ -1,0 +1,1 @@
+sap.ui.define(["sap/ui/core/UIComponent","sap/ui/Device","com/pcard/zptv_credit_approval/model/models"],function(e,t,i){"use strict";return e.extend("com.pcard.zptv_credit_approval.Component",{metadata:{manifest:"json"},init:function(){e.prototype.init.apply(this,arguments);this.globalSaveArray=[];this.getRouter().initialize();this.setModel(i.createDeviceModel(),"device")}})});
